@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  background-color: black;
+  color: white;
+}
+
+.first_div {
+  font-size: 40px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+li {
+  cursor: pointer;
+}
